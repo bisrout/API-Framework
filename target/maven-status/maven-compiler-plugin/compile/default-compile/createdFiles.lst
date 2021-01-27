@@ -1,0 +1,4 @@
+config\ReadConfig.class
+config\Settings.class
+pojo\Location.class
+pojo\AddPlace.class

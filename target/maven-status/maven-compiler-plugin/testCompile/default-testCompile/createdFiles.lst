@@ -1,0 +1,7 @@
+resourses\Utils.class
+bdd\APIFramework\AppTest.class
+resourses\APIResources.class
+resourses\TestDataBuild.class
+stepDefinations\StepDefination.class
+cucumber\Options\TestRunner.class
+stepDefinations\Hooks.class

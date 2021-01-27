@@ -1,0 +1,114 @@
+2020-06-30 12:30:37,618 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2020-06-30 12:30:38,169 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2020-06-30 12:30:38,528 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-06-30 12:30:38,530 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-06-30 12:30:38,531 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-06-30 12:30:38,532 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-06-30 12:30:38,532 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-06-30 12:30:38,533 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2020-06-30 12:30:38,534 DEBUG [main] wire:73 -  >> "POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2020-06-30 12:30:38,536 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-06-30 12:30:38,536 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-06-30 12:30:38,537 DEBUG [main] wire:73 -  >> "Content-Length: 236[\r][\n]"
+2020-06-30 12:30:38,537 DEBUG [main] wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2020-06-30 12:30:38,537 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-06-30 12:30:38,538 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2020-06-30 12:30:38,538 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-06-30 12:30:38,540 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-06-30 12:30:38,540 DEBUG [main] headers:278 - >> POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2020-06-30 12:30:38,541 DEBUG [main] headers:281 - >> Accept: */*
+2020-06-30 12:30:38,542 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-06-30 12:30:38,543 DEBUG [main] headers:281 - >> Content-Length: 236
+2020-06-30 12:30:38,544 DEBUG [main] headers:281 - >> Host: rahulshettyacademy.com
+2020-06-30 12:30:38,545 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-06-30 12:30:38,546 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2020-06-30 12:30:38,547 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-06-30 12:30:38,548 DEBUG [main] wire:87 -  >> "{"location":{"lat":-38.383494,"lng":33.427362},"accuracy":30,"name":"jenkin","phone_number":"(+91) 983 893 232","address":"33, side layout, cohen 09","types":["Normal House","Pent House"],"website":"www.normal.com","language":"Spanish"}"
+2020-06-30 12:30:38,597 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-06-30 12:30:38,600 DEBUG [main] wire:73 -  << "Date: Tue, 30 Jun 2020 07:00:58 GMT[\r][\n]"
+2020-06-30 12:30:38,600 DEBUG [main] wire:73 -  << "Server: Apache/2.4.18 (Ubuntu)[\r][\n]"
+2020-06-30 12:30:38,601 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-06-30 12:30:38,601 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2020-06-30 12:30:38,602 DEBUG [main] wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2020-06-30 12:30:38,602 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2020-06-30 12:30:38,602 DEBUG [main] wire:73 -  << "Content-Length: 194[\r][\n]"
+2020-06-30 12:30:38,603 DEBUG [main] wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2020-06-30 12:30:38,603 DEBUG [main] wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2020-06-30 12:30:38,604 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-06-30 12:30:38,604 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-06-30 12:30:38,605 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-06-30 12:30:38,606 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-06-30 12:30:38,606 DEBUG [main] headers:265 - << Date: Tue, 30 Jun 2020 07:00:58 GMT
+2020-06-30 12:30:38,607 DEBUG [main] headers:265 - << Server: Apache/2.4.18 (Ubuntu)
+2020-06-30 12:30:38,607 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-06-30 12:30:38,607 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: POST
+2020-06-30 12:30:38,608 DEBUG [main] headers:265 - << Access-Control-Max-Age: 3600
+2020-06-30 12:30:38,608 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2020-06-30 12:30:38,609 DEBUG [main] headers:265 - << Content-Length: 194
+2020-06-30 12:30:38,609 DEBUG [main] headers:265 - << Keep-Alive: timeout=5, max=100
+2020-06-30 12:30:38,609 DEBUG [main] headers:265 - << Connection: Keep-Alive
+2020-06-30 12:30:38,610 DEBUG [main] headers:265 - << Content-Type: application/json;charset=UTF-8
+2020-06-30 12:30:38,618 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2020-06-30 12:30:38,649 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2020-06-30 12:30:38,650 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-06-30 12:30:38,698 DEBUG [main] wire:87 -  << "{"status":"OK","place_id":"d6e9b73734bc1df8a4ccd8bfcb100e55","scope":"APP","reference":"f1d281456d6dc9b842d80b28e16dc439f1d281456d6dc9b842d80b28e16dc439","id":"f1d281456d6dc9b842d80b28e16dc439"}"
+2020-06-30 12:30:38,700 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17d238b1
+2020-06-30 12:30:38,701 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2020-06-30 12:30:39,481 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2020-06-30 12:30:39,481 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2020-06-30 12:30:39,649 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-06-30 12:30:39,649 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-06-30 12:30:39,650 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-06-30 12:30:39,650 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-06-30 12:30:39,651 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-06-30 12:30:39,651 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1
+2020-06-30 12:30:39,651 DEBUG [main] wire:73 -  >> "DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2020-06-30 12:30:39,652 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-06-30 12:30:39,652 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-06-30 12:30:39,652 DEBUG [main] wire:73 -  >> "Content-Length: 57[\r][\n]"
+2020-06-30 12:30:39,653 DEBUG [main] wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2020-06-30 12:30:39,653 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-06-30 12:30:39,653 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2020-06-30 12:30:39,654 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-06-30 12:30:39,654 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-06-30 12:30:39,655 DEBUG [main] headers:278 - >> DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1
+2020-06-30 12:30:39,655 DEBUG [main] headers:281 - >> Accept: */*
+2020-06-30 12:30:39,655 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-06-30 12:30:39,656 DEBUG [main] headers:281 - >> Content-Length: 57
+2020-06-30 12:30:39,657 DEBUG [main] headers:281 - >> Host: rahulshettyacademy.com
+2020-06-30 12:30:39,657 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-06-30 12:30:39,658 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2020-06-30 12:30:39,658 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-06-30 12:30:39,659 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2020-06-30 12:30:39,659 DEBUG [main] wire:73 -  >> "    "place_id":"d6e9b73734bc1df8a4ccd8bfcb100e55"[\r][\n]"
+2020-06-30 12:30:39,660 DEBUG [main] wire:73 -  >> "}[\r][\n]"
+2020-06-30 12:30:39,839 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-06-30 12:30:39,840 DEBUG [main] wire:73 -  << "Date: Tue, 30 Jun 2020 07:00:59 GMT[\r][\n]"
+2020-06-30 12:30:39,842 DEBUG [main] wire:73 -  << "Server: Apache/2.4.18 (Ubuntu)[\r][\n]"
+2020-06-30 12:30:39,843 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-06-30 12:30:39,844 DEBUG [main] wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2020-06-30 12:30:39,846 DEBUG [main] wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2020-06-30 12:30:39,848 DEBUG [main] wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2020-06-30 12:30:39,849 DEBUG [main] wire:73 -  << "Content-Length: 15[\r][\n]"
+2020-06-30 12:30:39,850 DEBUG [main] wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2020-06-30 12:30:39,851 DEBUG [main] wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2020-06-30 12:30:39,853 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-06-30 12:30:39,854 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-06-30 12:30:39,855 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-06-30 12:30:39,855 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-06-30 12:30:39,856 DEBUG [main] headers:265 - << Date: Tue, 30 Jun 2020 07:00:59 GMT
+2020-06-30 12:30:39,858 DEBUG [main] headers:265 - << Server: Apache/2.4.18 (Ubuntu)
+2020-06-30 12:30:39,859 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-06-30 12:30:39,859 DEBUG [main] headers:265 - << Access-Control-Allow-Methods: POST
+2020-06-30 12:30:39,860 DEBUG [main] headers:265 - << Access-Control-Max-Age: 3600
+2020-06-30 12:30:39,862 DEBUG [main] headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2020-06-30 12:30:39,864 DEBUG [main] headers:265 - << Content-Length: 15
+2020-06-30 12:30:39,865 DEBUG [main] headers:265 - << Keep-Alive: timeout=5, max=100
+2020-06-30 12:30:39,866 DEBUG [main] headers:265 - << Connection: Keep-Alive
+2020-06-30 12:30:39,866 DEBUG [main] headers:265 - << Content-Type: application/json;charset=UTF-8
+2020-06-30 12:30:39,868 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2020-06-30 12:30:39,869 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2020-06-30 12:30:39,870 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-06-30 12:30:39,874 DEBUG [main] wire:87 -  << "{"status":"OK"}"
+2020-06-30 12:30:39,876 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@258ee7de
+2020-06-30 12:30:39,877 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS

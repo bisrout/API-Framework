@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-30T12:05:50.978Z",
+        "line": 15,
+        "name": "verify if Place is sucessfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validating-place-api;verify-if-place-is-sucessfully-added-using-addplaceapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029880300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add Place Payload \"NewLand\" \"www.fgt.com\" \"English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewLand\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"www.fgt.com\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"English\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.add_Place_Payload(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4437956600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user call \"AddPlace\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlace\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_call_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2866500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The API cal got sucess with status code",
+            "match": {
+              "location": "StepDefination.the_API_cal_got_sucess_with_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16380100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" in response body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14102800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" in response body is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702031200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_id created  maps  to \"NewLand\" using \"GetPlace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewLand\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"GetPlace\"",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDefination.verify_place_id_created_maps_to_using(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place API",
+    "description": "",
+    "id": "validating-place-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placevalidation.feature",
+    "tags": []
+  }
+]
